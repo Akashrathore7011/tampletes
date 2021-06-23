@@ -1,0 +1,91 @@
+.main-banner{
+    background-image: url('../../1234.jpg');
+    height: 1200px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.banner{
+    background-image: url('../../1234..jpg');
+    height: 750px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    margin: 0px;
+    padding: 0%;
+}
+/* #header{
+    background: rgb(253, 51, 0);
+    padding-top: 20px;
+} */
+.navs {
+    list-style: none; 
+    font-size: 18px;
+    background: rgb(22, 214, 240);
+    float: right;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    
+}
+.navs li{
+    padding: 8px 50px 8px 0px  ;
+    
+
+    
+}
+.intro{
+    background: rgba(214, 212, 212, 0.178);
+    margin-top: 210px;
+}
+.intro h1{
+    font-size: 50px;
+}
+.banner-media{
+    list-style: none;
+    color: rgb(231, 223, 223);
+}
+.box{
+    width: 100px;
+    height: 100px;
+
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    border: 2px solid rgb(161, 17, 17);
+    /* transform: rotate(45deg); */
+}
+.button{
+    color: white;
+    background-color: black;
+    font-size: 13px;
+    font-weight: bolder;
+    padding: 13px 30px;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+}
+.card-img:hover{
+    opacity:.8;
+    
+}
+.icon{
+    font-size: 35px;
+    /* border-radius: 50%; */
+    padding: 20px;
+   
+    
+}
+.cards:hover{
+   box-shadow:         0px 0px 45px 0px rgba(238, 235, 234, 0.95);
+}
+.img-1:hover{
+    box-shadow:         0px 0px 45px 0px rgba(131, 128, 127, 0.95);
+}
+form{
+    background-color: rgb(131, 23, 23);
+    box-shadow: 9px 7px 16px 0px rgba(0,0,0,0.42);
+    padding: 5%;
+}
+.visit-icon{
+    padding: 50px;
+    border-radius: 50px;
+}

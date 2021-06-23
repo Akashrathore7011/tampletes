@@ -1,0 +1,161 @@
+#banner{ font-family: 'Raleway', sans-serif;
+    background: url('../../banner.jpg');
+    background-size: 100% ;
+    background-repeat: no-repeat;
+    height: 700px;
+}
+#logo{
+    color:rgb(255, 166, 0);
+   margin-top: 20px;
+   letter-spacing: 1px;
+    
+    font-weight: bold   ;
+}
+#menu{
+    list-style: none;
+    font-size: 15px;
+}
+#menu li{
+    display: inline-block;
+    margin: 0;
+    padding-left: 20px;
+}
+#menu li a{
+    display: block;
+    text-decoration: none;
+    margin-top: 30px;
+   
+    color: white;
+    text-transform: uppercase;
+}
+#menu li a:hover{
+    background: #6e67666c;
+    color:rgb(255, 166, 0);
+}
+#heading{
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 55px;
+    color:white;
+    text-shadow: .5px .5px red;
+    
+}
+.intro{
+    margin-top: 140px;
+    color: white;
+    line-height: 40px;
+    letter-spacing: 1px;
+}
+.images:hover{
+    filter: grayscale();
+}
+
+.btn{
+    background-color: white;
+    color: rgb(218, 143, 5);
+    font-size: 13px;
+    font-weight: bold;
+    padding: 10px 30px 10px 30px;
+}
+.btn:hover{
+    background-color: rgba(255, 255, 255, 0.719);
+}
+#para-1{font-family: 'Raleway', sans-serif;
+    font-size: 13px;
+    margin-top: 10px;
+    letter-spacing: 2px;
+    line-height: 30px;
+    color: rgb(102, 101, 101);
+}   
+#para{font-family: 'Raleway', sans-serif;
+    color: rgb(211, 211, 211);
+
+}
+.cards{
+    text-align: center;
+}
+.para-2{
+    color: rgb(102, 101, 101);
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-size: 13px;
+    text-align: center;
+    line-height: 30px;
+    
+}
+.service-icon{
+    font-size: 40px;
+    color: rgb(218, 143, 5);
+}
+.testimonials{
+    background-color: black;
+    height: 450px;
+}
+ul .stars{
+    list-style: none;
+    display: inline;
+    padding-right: 5px;
+
+}
+ul .stars a{
+    color: rgb(216, 168, 11);
+}
+.footer-section{
+    background: #1e272e;
+    height: 500px;
+}
+.heading{
+    color: white;
+    padding-bottom: 10px;
+}
+.address p{
+    line-height: 20px;
+}
+.heading h4{
+    color:white;
+    margin-bottom: 10px;
+}
+.links {
+    list-style: none;
+    font-size: 14px;
+    line-height: 30px;
+}
+
+    
+.social-media {
+    margin-top: 30px;
+}
+.social-media li{
+    display: inline-flex;
+    
+    
+      
+}
+.facebook a{
+   background-color:rgb(61, 78, 135) ;
+}
+.twitter a{
+    background: rgb(53, 154, 222);
+}
+.google a{
+    background: rgb(230, 72, 57);
+}
+.linkedin a{
+    background: rgb(61, 120, 184);
+}
+.social-media li a{
+    text-decoration: none;
+    padding: 7px 18px;
+    margin-right: 2px;
+    color: white;
+    font-size: 14px;
+    letter-spacing: 1px;
+    border-radius: 5px;
+}
+.move-tops{
+
+    background-color: rgba(47, 70, 97, 0.74);
+    padding: 6px 12px;
+    border-radius: 5px;
+}
